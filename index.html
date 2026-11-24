@@ -4,30 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- 1. Etiquetas Meta Estándar (SEO Técnico) -->
-  <title>Portafolio Personal | Desarrollador Web Frontend</title>
-  <meta name="title" content="Portafolio Personal | Desarrollador Web Frontend">
-  <meta name="description" content="Portafolio web personal desarrollado para el Laboratorio 16. Proyectos de diseño de interfaces, desarrollo frontend y despliegue continuo.">
-  <meta name="keywords" content="portafolio web, desarrollador frontend, HTML, CSS, JavaScript, SEO técnico, Tecsup">
-  <meta name="author" content="Tu Nombre Completo">
+  <!-- 1. Etiquetas SEO básicas -->
+  <!-- Máximo 60 caracteres -->
+  <title>Portafolio Personal — Desarrollador Web Frontend</title>
+  
+  <!-- Máximo 155 caracteres -->
+  <meta name="description"
+        content="Portafolio web personal con proyectos de diseño de interfaces, desarrollo frontend y despliegue continuo.">
+  
+  <meta name="keywords"
+        content="portafolio web, desarrollador frontend, HTML, CSS, JavaScript, SEO técnico">
+  
   <meta name="robots" content="index, follow">
+  
+  <!-- CAMBIAR: Coloca tu nombre completo -->
+  <meta name="author" content="Gilbert Vilchez">
 
-  <!-- 2. Etiquetas Open Graph (Para redes sociales) -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tu-portafolio.vercel.app/">
-  <meta property="og:title" content="Portafolio Personal | Desarrollador Web Frontend">
+  <!-- 2. Etiquetas Open Graph (redes sociales) -->
+  <meta property="og:type"        content="website">
+  <!-- CAMBIAR en Paso 4: Reemplaza MI-DOMINIO por tu subdominio de Vercel -->
+  <meta property="og:url"         content="https://laboratorio15vilchezgilbert.vercel.app/">
+  <meta property="og:title"       content="Portafolio Personal — Desarrollador Web Frontend">
   <meta property="og:description" content="Explora mis proyectos de desarrollo web, consumo de APIs y diseño de interfaces modernas.">
-  <!-- Asegúrate de que esta imagen exista en tu carpeta assets/ -->
-  <meta property="og:image" content="https://tu-portafolio.vercel.app/assets/og-preview.jpg">
+  <!-- CAMBIAR en Paso 4: Reemplaza MI-DOMINIO por tu subdominio de Vercel -->
+  <meta property="og:image"       content="https://laboratorio15vilchezgilbert.vercel.app/img/preview.jpg">
+  <meta property="og:locale"      content="es_PE">
+  <!-- CAMBIAR: Coloca el nombre de tu sitio o tu marca personal -->
+  <meta property="og:site_name"   content="Huascarán">
 
-  <!-- Enlace a la hoja de estilos -->
-  <link rel="stylesheet" href="styles.css">
+  <!-- 3. Etiquetas Twitter / X -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Portafolio Personal — Desarrollador Web Frontend">
+  <meta name="twitter:description" content="Explora mis proyectos de desarrollo web, consumo de APIs y diseño de interfaces modernas.">
+  <!-- CAMBIAR en Paso 4: Reemplaza MI-DOMINIO por tu subdominio de Vercel -->
+  <meta name="twitter:image"       content="https://laboratorio15vilchezgilbert.app/img/preview.jpg">
+
+  <!-- Ruta actualizada según estructura de carpetas -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
   <!-- Barra de navegación -->
   <header class="navbar">
     <div class="container nav-content">
+      <!-- CAMBIAR: Nombre o logo de tu marca -->
       <a href="#inicio" class="logo">MiPortafolio<span>.dev</span></a>
       <nav>
         <ul class="nav-links">
@@ -45,7 +65,8 @@
     <section id="inicio" class="hero">
       <div class="container hero-content">
         <span class="badge">Disponible para proyectos</span>
-        <h1>Hola, soy <span>[Gilbert]</span></h1>
+        <!-- CAMBIAR: Coloca tu nombre -->
+        <h1>Hola, soy <span>Gilbert</span></h1>
         <p>Estudiante de Diseño de Interfaces de Programación Avanzado. Creo experiencias web rápidas, accesibles y optimizadas para motores de búsqueda.</p>
         <div class="hero-buttons">
           <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
@@ -58,6 +79,7 @@
     <section id="sobre-mi" class="section">
       <div class="container">
         <h2>Sobre mí</h2>
+        <!-- CAMBIAR: Personaliza tu biografía -->
         <p class="section-desc">
           Soy un apasionado por el desarrollo web moderno, la arquitectura frontend y el despliegue continuo (CI/CD). Me enfoco en escribir código limpio, semántico y con buenas prácticas de SEO técnico.
         </p>
@@ -122,10 +144,12 @@
   <!-- Pie de página -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> [Gilbert] - Laboratorio N° 16 Diseño de Interfaces.</p>
+      <!-- CAMBIAR: Coloca tu nombre -->
+      <p>&copy; <span id="year"></span> Gilbert - Laboratorio N° 15 Diseño de Interfaces.</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Ruta actualizada según estructura de carpetas -->
+  <script src="js/main.js"></script>
 </body>
 </html>
